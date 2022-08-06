@@ -1,0 +1,58 @@
+.active,
+.inActive {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding:  12px 42px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+.inActive {
+  background-color: #f3353e00;
+  z-index: 2;
+  opacity: .5;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+} 
+.active {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  z-index: 2;
+  background-color: #F3353E;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.inActive:hover,
+.active:hover {
+  opacity: 1;
+  background-color: transparent;
+  text-shadow: nthree;
+}
+.inActive:before,
+.active:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+
+  background-color: #ff7b00;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.inActive:hover:before,
+.active:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
+
+.inActive:before {
+  background-color: #F3353E;
+}
