@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.starRating{
+	font-size: 0;
+}
+.starRatingWrap{
+	display: inline-block;
+	font-size: 1rem;
+}
+.starRatingWrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.starRatingIco{
+	float: right;
+	padding-left: 5px;
+	cursor: pointer;
+	color: #ED8A19;
+  transition: all .1s ease-in-out;
+  transform: scale(1);
+  
+}
+.starRatingIco:hover {
+  transform: scale(1.1);
+}
+.starRatingIco:active {
+  transform: scale(1.3);
+}
+.starRatingIco:last-child{
+	padding-left: 0;
+}
+.starRatingInput{
+	display: none;
+}
+.starRatingIco:hover:before,
+.starRatingIco:hover ~ .starRatingIco:before,
+.starRatingInput:checked ~ .starRatingIco:before
+{
+	content: "\f005";
+}
+
+.ratingReviews {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.15556px;
+}
