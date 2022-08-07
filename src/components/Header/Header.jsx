@@ -4,7 +4,7 @@ import logo from '../../image/logo.svg';
 import Btn from '../utils/Btn/Btn';
 const Header = () => {
   return (
-    <div className={styleCSS.header}>
+    <header className={styleCSS.header}>
       <img src={logo} className={styleCSS.logo} />
       <nav >
         <ul className={styleCSS.ul}>
@@ -19,7 +19,7 @@ const Header = () => {
          <Btn active={false}>Log IN</Btn>
          <Btn active={true}>SIGN UP</Btn>
       </div>
-    </div>
+    </header>
   );
 };
 

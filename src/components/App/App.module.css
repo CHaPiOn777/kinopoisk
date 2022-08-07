@@ -7,4 +7,5 @@
   flex-direction: column;
   color: #FFFFFF;
   z-index: 100;
+  position: relative;
 }
