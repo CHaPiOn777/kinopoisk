@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kinopoisk/static/css/main.7d424983.css",
+    "main.js": "/kinopoisk/static/js/main.f4cfd580.js",
+    "static/js/787.e755b8cc.chunk.js": "/kinopoisk/static/js/787.e755b8cc.chunk.js",
+    "static/media/Poster.jpg": "/kinopoisk/static/media/Poster.22b89eed6af4836b755c.jpg",
+    "static/media/Lato-Regular.woff": "/kinopoisk/static/media/Lato-Regular.7b083c7c6f0abde7123f.woff",
+    "static/media/Lato-Bold.woff": "/kinopoisk/static/media/Lato-Bold.d5d2da3aea84accbd3b0.woff",
+    "static/media/logo.svg": "/kinopoisk/static/media/logo.b6c97ea5ae3a7dae10e93d48cb49ad6f.svg",
+    "static/media/play.svg": "/kinopoisk/static/media/play.084ce4ecc0b193b6c0eeaf887831560f.svg",
+    "index.html": "/kinopoisk/index.html",
+    "main.7d424983.css.map": "/kinopoisk/static/css/main.7d424983.css.map",
+    "main.f4cfd580.js.map": "/kinopoisk/static/js/main.f4cfd580.js.map",
+    "787.e755b8cc.chunk.js.map": "/kinopoisk/static/js/787.e755b8cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d424983.css",
+    "static/js/main.f4cfd580.js"
+  ]
+}
